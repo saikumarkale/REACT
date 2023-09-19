@@ -12,7 +12,7 @@ const FormWithObjFc = () => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     console.log({ name, value });
-    //console.log({name, value});
+
     //setProfile({ [name]: value }); -> It will override the entire object
 
     setProfile((prevState) => {
